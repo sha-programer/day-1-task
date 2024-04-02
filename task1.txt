@@ -1,0 +1,10 @@
+http/1.1 vs http/2
+http/1.1 is the first version of HyperText Transfer Protocol which was created in 1997
+http/2 is the updated version of http/1.1 which is updated in 2015
+http/1.1 loads resources one by one ,if one resource can't load it blocks all other resources
+http/2 loads multiple resources at same time with using tcp,if one data can't load it not blocks other data's
+http/1.1 can't allow server to "push"content to client
+http/2 allows server to push content to client 
+http/1.1 compress HTTP messages to make them smaller because smaller data loads quikly than larger one
+http/2 also compress HTTP messages but it uses advance compression method called HPACK which eliminate redundant datas
+

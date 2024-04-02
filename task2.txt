@@ -1,0 +1,21 @@
+objects
+
+*Object is real time entity
+*objects does not have index value
+*In JavaScript, almost everything is an object except primitives
+*objects structure with key value pair
+*object can contain many value
+*we can create object in 3 ways
+    >object literal
+    >instance of object
+    >using constructor
+*we can print object in two methods
+    >dot method
+    >box method
+*object example
+    > var person ={
+        name:"mohamed abdulasha",
+        occupation:"full stock developer",
+        age:30
+        Skills:[ "JavaScript","html","css","nodejs" ]
+    }
